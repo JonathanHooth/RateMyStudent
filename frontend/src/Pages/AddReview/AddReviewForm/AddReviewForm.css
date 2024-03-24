@@ -1,0 +1,75 @@
+.box {
+    box-sizing: border-box;
+  }
+
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.addRevFormInput, textarea {
+    width: 100%;
+    padding: 15px 20px;
+    border: 1.2px solid rgb(189, 194, 237);
+    border-radius: 4px;
+    resize: vertical;
+  }
+  .addRevFormSelect {
+    transition: background-color 0.5s ease;
+    width: 100%;
+    padding: 15px 20px;
+    border: 1.2px solid /displayStudents;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  .addRevFormSelect:hover {
+    background-color: rgb(189, 194, 237); /* New background color on hover */
+    color: white;
+}
+.addRevFormLabel {
+    padding: 9px 13px 0px 0;
+    display: inline-block;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    text-align: left;
+
+  }
+  
+.col-75 {
+float: left;
+width: 75%;
+margin-top: 6px;
+}
+
+.center {
+    text-align: center;
+}
+.addRevFormOption {
+    text-align: center;
+    background-color: rgb(189, 194, 237);
+    color: black;
+}
+
+.addRevFormSubmitButton {
+  padding: 15px;
+  width: 50%;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgb(189, 194, 237);
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 20px;
+    
+}
+
+.addRevFormSubmitButton:hover {
+    background-color: rgb(98, 101, 122);
+    color: white;
+}

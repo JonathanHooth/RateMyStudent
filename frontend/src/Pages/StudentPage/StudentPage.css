@@ -1,0 +1,60 @@
+.studentInfo {
+    min-height: 10vh;
+    background-color: #f0f8ff; /* Pale blue background color */
+    justify-content: space-evenly;
+    display: flex;
+    margin-bottom: 2vh;
+    padding-top: 1vh;
+}
+
+.reviewList {
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.average {
+    font-size: 3.5vh;
+    font-weight: bold;
+    color: #333; /* Adjust text color to contrast with pale blue background */
+}
+
+.sButton {
+    width: 9vw;
+    margin: 20px auto; /* Center horizontally and adjust top margin */
+    padding: 20px 50px; /* Adjust padding */
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(189, 194, 237);
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    display: block; /* Ensure button behaves as a block element */
+    text-align: center; /* Align button text to the center */
+}
+
+.align {
+    text-align: center; /* Align text to the center */
+}
+.studentNamePage{
+    
+    padding-left: 0vw;
+    padding-right: 1vw;
+    padding-top: 4vh;
+    margin-left: 1.5vw;
+    margin-right: 1vw;
+    font-size: 3vh;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 0.5vh;
+    color: rgb(130, 130, 255);
+    font-size: 3.5vh;
+    font-weight: bold;
+
+    
+}
+
+.image{
+    padding-top: 5vh;
+}

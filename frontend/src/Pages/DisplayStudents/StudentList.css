@@ -1,0 +1,74 @@
+.studentWrapper{
+    width: 22vw;
+    height: 31vh;
+    display: flex;
+    margin: 4vh 2vw 4vh 2vw;
+    border-radius: 8px;
+    flex-direction: column;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    justify-content: center;
+
+}
+
+.student-background{
+    background-image: url("./file.png");
+    width: 100%; /* Set the width of the container */
+    height: 100%; /* Set the height of the container */
+    
+    background-size: cover; /* Scale the background image to cover the entire container */
+    background-position: center; /* Center the background image */
+}
+
+.student{
+    display: flex;
+    margin: 16.5vh 0vw 0vh 0vw;
+    border-radius: 8px;
+    flex-direction: column;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    justify-content: center;
+}
+
+.studentName{
+    
+    padding-left: 0vw;
+    padding-right: 1vw;
+    margin-left: 1.5vw;
+    margin-right: 1vw;
+    font-size: 3vh;
+    text-align: left;
+    border-radius: 5px;
+    padding-bottom: 0.5vh;
+    color: rgb(130, 130, 255);
+    font-size: 3.5vh;
+    font-weight: bold;
+
+    
+}
+
+.studentGrade{
+    margin-top: 4.5vh;
+    margin-left: 2.2vw;
+    text-align: left;
+    font-weight: bold;
+}
+
+.studentButton {
+    appearance: none;
+    outline: none;
+    padding: 3px 5px;
+    margin: 25%;
+    cursor: pointer;
+    width: 50%; 
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgb(189, 194, 237);
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+.studentButton:hover {
+    background-color: rgb(98, 101, 122);
+    color: white;
+}

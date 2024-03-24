@@ -1,0 +1,18 @@
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height to fill the viewport */
+}
+  
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+footer {
+    margin-top: auto; /* Push the footer to the bottom */
+}
+  
+  

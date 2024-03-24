@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Pixel';
+    src: url('./fonts/myfont.otf') format('otf');
+    /* Add additional font formats here if needed */
+  }
+  
+.myCustomText {
+    font-family: 'Pixel', sans-serif;
+}
+  

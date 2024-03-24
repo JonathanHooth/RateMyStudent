@@ -1,0 +1,9 @@
+main {
+    padding: 0px;
+    background-color: rgb(242, 243, 246);
+}
+
+.content-wrapper{ 
+    min-height: 100vh; /* Set minimum height to fill the viewport */
+  }
+  

@@ -1,0 +1,47 @@
+.review {
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 20px 0; /* Margin top and bottom */
+    padding: 15px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    display: flex; /* Flex display */
+    align-items: center; /* Center vertically */
+}
+
+.review-ins {
+    width: 100%;
+}
+
+.review-subject {
+    margin: 0 10px; /* Margin left and right */
+    font-weight: bold; /* Bold font */
+    color: #333; /* Dark text color */
+}
+
+.basicWrap {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1; /* Fill available space */
+}
+
+.beegWrap {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1; /* Fill available space */
+}
+
+.review-disc {
+    margin-top: 10px; /* Margin top */
+    background-color: rgb(189, 194, 237); /* Light blue background */
+    padding: 10px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.reviewInfo {
+    margin-right: auto; /* Margin right */
+    color: hwb(0 40% 60%); /* Gray text color */
+}
+
+.reviewStats {
+    margin-left: auto; /* Margin left */
+    color: hwb(0 40% 60%); /* Gray text color */
+}

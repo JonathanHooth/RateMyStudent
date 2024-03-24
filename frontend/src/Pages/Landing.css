@@ -1,0 +1,38 @@
+.land{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body{
+    background: linear-gradient(rgb(189, 194, 237),white); 
+    font-family: Verdana, sans-serif;
+}
+
+.landingContainer {
+    text-align: center;
+}
+
+.searchBar{
+    margin: 20vw;
+    display:flex;
+    justify-content: center;
+}
+
+.separatorTop{
+    height: 20vh;
+}
+.separatorBot{
+    height: 30vh; 
+}
+
+
+.landingTitle {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.lilWrap{
+    display: flex;
+    flex-direction: column;
+}

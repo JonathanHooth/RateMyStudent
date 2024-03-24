@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    position: relative; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(189, 194, 237);
+}
+
+.logoTxt {
+    max-width: 200px; 
+    max-height: 150px; 
+    margin-left: 2vw;
+}
+
+.searchTop, .overlayContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center; /* Align to the right */
+    z-index: 1;
+    width: 100%;
+    right: 0; /* Position to the right edge of its container */
+}
+
