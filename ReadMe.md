@@ -73,12 +73,3 @@ ensure that the backend server, backend/main.py is running in another terminal. 
     npm start
 
 A browser should automatically open with the application running!
-
-
-    open the folder the frontend should be in
-    type this command into the terminal:
-git clone zdfgxchvjkhcgxfzdfxchvjgkhl
-    cd into the frontend folder
-    run this command:
-npm start
-    launch the frontend in your web browser at http://localhost:3000/
